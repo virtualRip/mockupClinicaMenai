@@ -1,0 +1,302 @@
+<!-- Navbar Sticky -->
+<nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+            <!-- Logo -->
+            <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
+                <!-- Icono Simulado del Logo -->
+                <i class="fa-solid fa-leaf text-3xl text-brand-primary"></i>
+                <div class="flex flex-col">
+                    <span class="font-sans text-xl tracking-widest uppercase text-brand-text">Clínica Menai</span>
+                </div>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#facial" class="text-sm font-medium hover:text-brand-primary transition-colors">Facial</a>
+                <a href="#capilar" class="text-sm font-medium hover:text-brand-primary transition-colors">Capilar</a>
+                <a href="#corporal" class="text-sm font-medium hover:text-brand-primary transition-colors">Corporal</a>
+                <a href="#contacto" class="px-6 py-2.5 bg-brand-dark text-white text-sm font-medium rounded shadow-md hover:bg-opacity-90 transition-all transform hover:-translate-y-0.5">
+                    Pedir Cita <i class="fa-brands fa-whatsapp ml-2"></i>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden text-brand-text text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-gradient-to-r from-brand-light to-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Text Content -->
+            <div class="fade-in-up" style="animation-delay: 0.1s;">
+                <span class="inline-block py-1 px-3 rounded-full bg-white border border-brand-primary/30 text-brand-dark text-xs font-semibold tracking-wide mb-6 uppercase">
+                    Medicina Estética Avanzada
+                </span>
+                <h1 class="font-serif text-5xl lg:text-6xl text-brand-text leading-tight mb-6">
+                    Una piel bonita es <br/>
+                    <span class="text-brand-primary italic">una piel sana</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 max-w-lg font-light leading-relaxed">
+                    En Clínica Menai unimos tecnología médica y estética personalizada. Realzamos tu belleza natural con tratamientos seguros en el corazón de Castellón.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contacto" class="px-8 py-4 bg-brand-dark text-white text-center font-medium rounded shadow-lg hover:bg-opacity-90 transition-all">
+                        Agendar Valoración Gratuita
+                    </a>
+                    <a href="#servicios" class="px-8 py-4 bg-white text-brand-dark border border-brand-primary/30 text-center font-medium rounded hover:bg-brand-light transition-all">
+                        Explorar Tratamientos
+                    </a>
+                </div>
+            </div>
+            <!-- Hero Image -->
+            <div class="relative fade-in-up" style="animation-delay: 0.3s;">
+                <div class="absolute -inset-4 bg-brand-primary/10 rounded-full blur-3xl"></div>
+                <!-- Placeholder image matching High-Key aesthetic -->
+                <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tratamiento facial estético" class="relative rounded-2xl shadow-2xl object-cover h-[500px] w-full border-4 border-white">
+                
+                <!-- Floating Badge -->
+                <div class="absolute bottom-8 left-[-20px] bg-white p-4 rounded-lg shadow-xl border-l-4 border-brand-primary max-w-xs hidden md:block">
+                    <div class="flex items-center gap-2 mb-1">
+                        <div class="flex text-yellow-400 text-xs">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="text-xs font-bold text-brand-text">4.9/5</span>
+                    </div>
+                    <p class="text-xs text-gray-500">"Profesionalidad y trato excelente. Resultados muy naturales."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trust Bar -->
+<div class="bg-white border-b border-gray-100 py-8">
+    <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-center md:justify-around gap-8 text-center text-gray-400 grayscale opacity-70 hover:opacity-100 transition-opacity">
+        <div class="flex flex-col items-center gap-2">
+            <i class="fa-solid fa-user-doctor text-3xl"></i>
+            <span class="text-sm font-medium">Personal Sanitario</span>
+        </div>
+        <div class="flex flex-col items-center gap-2">
+            <i class="fa-solid fa-microscope text-3xl"></i>
+            <span class="text-sm font-medium">Diagnóstico Ecográfico</span>
+        </div>
+        <div class="flex flex-col items-center gap-2">
+            <i class="fa-solid fa-certificate text-3xl"></i>
+            <span class="text-sm font-medium">Tecnología Certificada</span>
+        </div>
+        <div class="flex flex-col items-center gap-2">
+            <i class="fa-solid fa-heart-pulse text-3xl"></i>
+            <span class="text-sm font-medium">Seguimiento Médico</span>
+        </div>
+    </div>
+</div>
+
+<!-- Servicios Principales -->
+<section id="servicios" class="py-24 bg-brand-gray">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="font-serif text-4xl text-brand-text mb-4">Nuestros Tratamientos</h2>
+            <div class="h-1 w-20 bg-brand-primary mx-auto mb-6"></div>
+            <p class="text-gray-600 max-w-2xl mx-auto">Soluciones personalizadas divididas en tres áreas de excelencia para cubrir todas tus necesidades estéticas y de salud.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card Facial -->
+            <div id="facial" class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition-shadow border-t-4 border-brand-primary group">
+                <div class="w-14 h-14 bg-brand-light rounded-full flex items-center justify-center text-brand-dark text-2xl mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fa-regular fa-face-smile"></i>
+                </div>
+                <h3 class="font-serif text-2xl mb-4 text-brand-text">Estética Facial</h3>
+                <p class="text-sm text-gray-500 mb-6 leading-relaxed">Rejuvenecimiento y armonización del rostro mediante técnicas mínimamente invasivas.</p>
+                <ul class="space-y-2 mb-8 text-sm text-gray-600">
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Ácido Hialurónico</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Neuromoduladores (Botox)</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Mesoterapia Facial</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Hilos Tensores</li>
+                </ul>
+                <a href="#" class="text-brand-dark font-medium text-sm hover:underline">Ver todo facial &rarr;</a>
+            </div>
+
+            <!-- Card Capilar -->
+            <div id="capilar" class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition-shadow border-t-4 border-brand-primary group">
+                <div class="w-14 h-14 bg-brand-light rounded-full flex items-center justify-center text-brand-dark text-2xl mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <h3 class="font-serif text-2xl mb-4 text-brand-text">Salud Capilar</h3>
+                <p class="text-sm text-gray-500 mb-6 leading-relaxed">Tratamientos avanzados para frenar la caída y recuperar la densidad de tu cabello.</p>
+                <ul class="space-y-2 mb-8 text-sm text-gray-600">
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Mesoterapia Capilar</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Bioestimuladores</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Exosomas</li>
+                </ul>
+                <a href="#" class="text-brand-dark font-medium text-sm hover:underline">Ver todo capilar &rarr;</a>
+            </div>
+
+            <!-- Card Corporal -->
+            <div id="corporal" class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition-shadow border-t-4 border-brand-primary group">
+                <div class="w-14 h-14 bg-brand-light rounded-full flex items-center justify-center text-brand-dark text-2xl mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fa-solid fa-spa"></i>
+                </div>
+                <h3 class="font-serif text-2xl mb-4 text-brand-text">Estética Corporal</h3>
+                <p class="text-sm text-gray-500 mb-6 leading-relaxed">Esculpe tu figura y mejora la calidad de tu piel con tecnología de vanguardia.</p>
+                <ul class="space-y-2 mb-8 text-sm text-gray-600">
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Eliminación de Varices</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Presoterapia</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-primary text-xs mr-2"></i> Relleno de Glúteos</li>
+                </ul>
+                <a href="#" class="text-brand-dark font-medium text-sm hover:underline">Ver todo corporal &rarr;</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Resultados Reales (Before/After) -->
+<section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="text-brand-primary font-bold tracking-wider text-sm uppercase">Resultados Reales</span>
+                <h2 class="font-serif text-4xl text-brand-text mt-2 mb-6">La evidencia de un trabajo bien hecho</h2>
+                <p class="text-gray-600 mb-8 font-light">
+                    Creemos en la transparencia. Nuestras fotos de antes y después muestran resultados reales, sin filtros excesivos, realizados por nuestro equipo médico.
+                </p>
+                
+                <div class="bg-brand-light p-6 rounded-lg border-l-4 border-brand-primary mb-8">
+                    <p class="italic text-brand-text font-serif">"Me explicaron todo el proceso con claridad. El resultado en mis ojeras fue inmediato y súper natural. 100% recomendada."</p>
+                    <p class="text-xs font-bold mt-4 text-brand-dark">— Cliente Verificada</p>
+                </div>
+
+                <button class="text-brand-dark font-semibold border-b-2 border-brand-dark hover:text-brand-primary hover:border-brand-primary transition-all">
+                    Ver galería completa en Instagram
+                </button>
+            </div>
+
+            <!-- Grid de Fotos (Simulación) -->
+            <div class="grid grid-cols-2 gap-4">
+                <!-- Caso 1 -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Antes" class="w-full h-48 object-cover">
+                    <div class="absolute top-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded">Antes</div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Después" class="w-full h-48 object-cover brightness-110 saturate-110"> <!-- Simulado con CSS -->
+                    <div class="absolute top-2 left-2 bg-brand-primary text-white text-xs px-2 py-1 rounded">Después</div>
+                </div>
+                <!-- Caso 2 -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Antes" class="w-full h-48 object-cover">
+                    <div class="absolute top-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded">Antes</div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Después" class="w-full h-48 object-cover brightness-110">
+                    <div class="absolute top-2 left-2 bg-brand-primary text-white text-xs px-2 py-1 rounded">Después</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Banner CTA -->
+<section class="py-16 bg-brand-primary text-white">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+        <h2 class="font-serif text-3xl md:text-4xl mb-6">¿Dudas sobre qué tratamiento es para ti?</h2>
+        <p class="text-lg opacity-90 mb-8 max-w-2xl mx-auto">Solicita una valoración diagnóstica sin compromiso. Analizamos tu piel y te proponemos un plan a medida.</p>
+        <a href="#contacto" class="inline-block px-10 py-4 bg-white text-brand-dark font-bold rounded shadow hover:bg-gray-100 transition-colors">
+            Contactar Ahora
+        </a>
+    </div>
+</section>
+
+<!-- Contacto & Ubicación -->
+<section id="contacto" class="py-24 bg-brand-light/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+            
+            <!-- Info -->
+            <div class="w-full md:w-1/3 p-10 bg-brand-dark text-white flex flex-col justify-between">
+                <div>
+                    <h3 class="font-serif text-3xl mb-8">Visítanos</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-brand-primary"></i>
+                            <p class="text-sm opacity-90">Parque del Oeste 8,<br>Entresuelo A<br>12006, Castellón de la Plana</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-phone mt-1 text-brand-primary"></i>
+                            <p class="text-sm opacity-90 text-xl font-semibold">658 25 98 34</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i class="fa-regular fa-envelope mt-1 text-brand-primary"></i>
+                            <p class="text-sm opacity-90">info@clinicamenai.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12">
+                    <p class="text-sm opacity-70 mb-4">Síguenos en redes:</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-primary transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-primary transition-colors">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mapa -->
+            <div class="w-full md:w-2/3 h-96 md:h-auto bg-gray-200 relative">
+                <!-- Placeholder de Mapa -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.8!2d-0.0!3d39.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDU5JzAwLjAiTiAwwrAwMCcwMC4wIlc!5e0!3m2!1ses!2ses!4v1600000000000!5m2!1ses!2ses" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    class="absolute inset-0 grayscale hover:grayscale-0 transition-all duration-500">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Simple -->
+<footer class="bg-brand-text text-white py-12 text-center md:text-left">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="col-span-1 md:col-span-2">
+            <span class="font-serif text-2xl tracking-wide block mb-4">Clínica Menai</span>
+            <p class="text-sm text-gray-400 max-w-xs mx-auto md:mx-0">
+                Tu centro de medicina estética avanzada en Castellón. Tecnología y experiencia al servicio de tu bienestar.
+            </p>
+        </div>
+        <div>
+            <h4 class="font-bold mb-4 text-brand-primary">Legal</h4>
+            <ul class="space-y-2 text-sm text-gray-400">
+                <li><a href="#" class="hover:text-white">Aviso Legal</a></li>
+                <li><a href="#" class="hover:text-white">Política de Privacidad</a></li>
+                <li><a href="#" class="hover:text-white">Política de Cookies</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="font-bold mb-4 text-brand-primary">Horario</h4>
+            <p class="text-sm text-gray-400">Lunes - Viernes:<br>9:30 - 13:30<br>16:00 - 20:00</p>
+        </div>
+    </div>
+    <div class="border-t border-gray-700 mt-12 pt-8 text-center text-xs text-gray-500">
+        &copy; 2025 Clínica Menai. Todos los derechos reservados.
+    </div>
+</footer>
+
+<!-- Botón Flotante WhatsApp -->
+<a href="https://wa.me/34658259834" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all z-50 hover:scale-110 flex items-center justify-center w-16 h-16">
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+</a>
